@@ -1,5 +1,5 @@
 // Copyright 2019-2021 The jdh99 Authors. All rights reserved.
-// Ëæ»úÄ£¿é
+// éšæœºæ¨¡å—
 // Authors: jdh99 <jdh821@163.com>
 
 #ifndef TZRANDOM_H
@@ -8,14 +8,14 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-// TZRandomSetSeed ÉèÖÃËæ»úÊıÖÖ×Ó
+// TZRandomSetSeed è®¾ç½®éšæœºæ•°ç§å­
 void TZRandomSetSeed(int seed);
 
-// TZRandomGetRand ¶ÁÈ¡Ëæ»úÊı
-// Ëæ»úÊı·¶Î§ÔÚmin-maxÖ®¼ä,°üÀ¨minºÍmax
+// TZRandomGetRand è¯»å–éšæœºæ•°
+// éšæœºæ•°èŒƒå›´åœ¨min-maxä¹‹é—´,åŒ…æ‹¬minå’Œmax
 uint32_t TZRandomGetRand(uint32_t min, uint32_t max);
 
-// TZRandomGetCoin »ñÈ¡Ó²±ÒµÄÕı·´Ãæ
+// TZRandomGetCoin è·å–ç¡¬å¸çš„æ­£åé¢
 bool TZRandomGetCoin(void);
 
 #endif
